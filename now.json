@@ -1,0 +1,15 @@
+  
+{
+  "version": 2,
+  "name": "now-php-composer",
+  "regions": ["all"],
+  "public": true,
+  "functions": {
+    "api/index.php": {
+      "runtime": "now-php@0.0.7"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/index.php" }
+  ]
+}
